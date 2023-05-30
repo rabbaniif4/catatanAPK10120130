@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.SlideshowFragment">
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="40dp"
+        android:text="Aplikasi Notes Harian yang dapat di ubah di hapus"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="100dp"
+        android:text="SDK Version : 7.0"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="140dp"
+        android:text="Android Gradle Plugin Version : 7.4.1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginVertical="190dp"
+        android:text="GradleVersion : 7.5.0"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ImageView
+        android:id="@+id/imageviewProfile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="100dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="123dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="310dp"
+        android:text="NIM:10120130
+                      KELAS:IF-4
+                      NAMA:MUHAMMAD RABBANI A
+                      EMAIL:rabbani.10120130@mahasiswa.unikom.ac.id"
+
+        android:textSize="20sp" />
+
+</RelativeLayout>
